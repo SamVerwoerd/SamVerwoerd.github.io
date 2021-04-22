@@ -64,3 +64,19 @@ li.themed.dark-theme{
     background-color: rgb(99, 96, 96);
     color: white;
 }
+.convertbutton.dark-theme{
+    color: cornsilk;
+
+}
+img{
+    text-align: center;
+    justify-self: center;
+    max-height: 325px;
+    max-width: 400px;    
+}
+.card-img-top{
+    text-align: center;
+    justify-self: center;
+    max-height: 325px;
+    max-width: 400px;
+}

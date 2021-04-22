@@ -1,5 +1,7 @@
 const button = document.querySelector('.theme');
 const elements = document.querySelectorAll('body, h1, .themed, li, .card-body, .card-img-top, .card, .footer, button');
+const converButton = document.querySelector(".convertButton");
+const changetext = document.querySelector(".meters");
 
 let darkMode = false
 
@@ -14,12 +16,14 @@ const colorHandler = function(){
         button.textContent = "Light Mode";
     }
 }
-
+ 
 const Converter = function() {
-    let days = document.getElementById("numberDays").value;
-    document.getElementById("hours").innerHTML = days / 24;
-    // console.log(days, hours);
-  }
+   const km = document.querySelector("input").value;
+   const ms = km / 3.6;
+   changetext.textContent = ms;
+}
+
+converButton.addEventListener('click', Converter);
 
 button.addEventListener('click', colorHandler);
 
