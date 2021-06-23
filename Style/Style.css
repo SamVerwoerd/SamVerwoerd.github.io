@@ -27,7 +27,7 @@ body{
     color: white;
 }
 .dark-theme{
-    color: white;
+    color: black;
 }
 body.dark-theme{
     background-color: rgb(99, 96, 96);
@@ -46,16 +46,6 @@ li.themed.dark-theme{
     border-color: black;
 }
 .card-body.dark-theme{
-    background-color: rgb(99, 96, 96);
-    color: white;
-    border-color: black;
-}
-.card-img-top.dark-theme{
-    background-color: rgb(99, 96, 96);
-    color: white;
-    border-color: black;
-}
-.card.dark-theme{
     background-color: rgb(99, 96, 96);
     color: white;
     border-color: black;
@@ -93,4 +83,14 @@ img{
 }
 .card{
     border: none;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+article{
+    border: black;
+    border-radius: 1px;
+    margin: 1%;
 }
