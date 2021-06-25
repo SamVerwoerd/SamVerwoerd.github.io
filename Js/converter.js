@@ -6,5 +6,4 @@ const Converter = function() {
     const ms = km / 3.6;
     changetext.textContent = ms;
  }
- 
  converButton.addEventListener('click', Converter);
