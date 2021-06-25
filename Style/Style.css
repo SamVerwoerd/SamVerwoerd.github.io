@@ -48,3 +48,10 @@ article{
     align-items: center;
     box-shadow: 5px 5px 5px gray;
 }
+.Logo{
+    margin: 1%;
+    width: 100%;
+}
+p{
+    margin: 1%;
+}
