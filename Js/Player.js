@@ -1,10 +1,11 @@
-  export default class Player {
-    constructor(name, symbol) {
-      //Make this work
-      this.name
-      this.symbol
-      this.score
-    }
+export default class Player {
+  constructor(name, symbol) {
+    //Make this work
+    this.symbol = symbol;
+    this.name = name;
+    this.points = 0;
+    this.level = 1;
+  }
   
     /**
      * Assignment
