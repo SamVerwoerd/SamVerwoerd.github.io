@@ -1,0 +1,27 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+}
+.board{
+	width: 400px;
+	height: 400px;
+	margin: 400 auto;
+  background-color: #f3f3f3;
+  color: #fff;
+  border: 6px solid #2c3e50;
+  border-radius: 10px;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.field{
+  border: 1px solid black;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+}

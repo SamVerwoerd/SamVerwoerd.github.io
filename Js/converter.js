@@ -1,6 +1,8 @@
+//Selectors
 const converButton = document.querySelector(".convertButton");
 const changetext = document.querySelector(".meters");
 
+//Converter
 const Converter = function() {
     const km = document.querySelector("input").value;
     const ms = km / 3.6;

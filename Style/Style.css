@@ -12,52 +12,6 @@
 .card-title{
     text-align:center;
 }
-body{
-    background-color: rgb(241, 229, 229);
-}
-.container{
-    background-color: rgb(241, 229, 229);
-}
-.button{
-    background-color: black;
-    color: white;
-}
-.button.dark-theme{
-    background-color: black;
-    color: white;
-}
-.dark-theme{
-    color: black;
-}
-body.dark-theme{
-    background-color: rgb(99, 96, 96);
-}
-h1.dark-theme{
-    color: white;
-}
-ul.themed.dark-theme{
-    background-color: rgb(99, 96, 96);
-    color: white;
-    border-color: black;
-}
-li.themed.dark-theme{
-    background-color: rgb(99, 96, 96);
-    color: white;
-    border-color: black;
-}
-.card-body.dark-theme{
-    background-color: rgb(99, 96, 96);
-    color: white;
-    border-color: black;
-}
-.footer.dark-theme{
-    background-color: rgb(99, 96, 96);
-    color: white;
-}
-.convertbutton.dark-theme{
-    color: cornsilk;
-
-}
 img{
     text-align: center;
     justify-self: center;
@@ -69,11 +23,6 @@ img{
     justify-self: center;
     max-height: 325px;
     max-width: 400px;
-}
-.centered{
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 .img{
     display: flex;
@@ -90,7 +39,11 @@ section{
     width: 100%;
 }
 article{
-    border: black;
-    border-radius: 1px;
-    margin: 1%;
+    border: 1px solid black;
+    border-radius: 1%;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px gray;
 }
