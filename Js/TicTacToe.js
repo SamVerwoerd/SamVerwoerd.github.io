@@ -108,15 +108,7 @@ function checkWinner()
             } 
         }
     }
-        
-    }
-    /**
-     * Assignment
-     * Add an algorithm to check if someone has three in a row
-     * Try to use Internet - if not found the teacher will give you one
-     * Also make sure you check for a draw (gelijkspel)
-     * Again what more needs to be done, make a short todolist
-     */
+}
 
 //Reset
 function resetGame() 
