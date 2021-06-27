@@ -23,6 +23,8 @@ const resetButton = document.querySelector(".reset-btn");
  * Make a loop thru all the fields and add a click event. 
  * Connect the addSymbolToField function in the eventHandler
  */
+
+//adding symbol to the field
 for (let i = 0; i < fields.length; i++) {
     const field = fields[i]
     field.addEventListener('click', function(e) {
@@ -69,14 +71,13 @@ function addSymbolToField(field) {
      * What more needs to be done here? Make a short todolist
      */
 
-
     return true;
-
 }
 
+//Win Algorithm 
 function checkWinner() 
 {
-    const winnningBox = [   
+    const winnningLines = [   
         [0, 1, 2],
         [3, 4, 5],
         [6, 7, 8],
@@ -87,20 +88,20 @@ function checkWinner()
         [2, 4, 6],
       ];
 
-    let threex = 0;
-    let threeo = 0;
+    let X = 0;
+    let O = 0;
     
-    for (let i = 0; i < winnningBox.length; i++)
+    for (let i = 0; i < winnningLines.length; i++)
     {
-        const winline = winnningBox[i];
+        const winline = winnningLines[i];
         console.log(winline);
 
-         threeo = 0;
-         threex = 0;
+         X = 0;
+         O = 0;
 
         for (let j = 0; j < winline.length; j++)
         {
-            console.log(winnningBox[i][j]);
+            console.log(winnningLines[i][j]);
 
             const fieldIndex = winline[j]
             console.log(fieldIndex);
@@ -109,18 +110,18 @@ function checkWinner()
             
             if(symbol.toLowerCase() === "x")
             {
-                threex++;
+                X++;
             }
             else if(symbol.toLowerCase() === "o")
             {
-                threeo++;
+                O++;
             }
 
-            if(threex === 3)
+            if(X === 3)
             {
                 alert(playerOne.name + ' has won');
             }
-            else if(threeo === 3)
+            else if(O === 3)
             {
                 alert(playerTwo.name + ' has won');
             } 
@@ -136,11 +137,11 @@ function checkWinner()
      * Again what more needs to be done, make a short todolist
      */
 
+//Reset
 function resetGame() 
 {
     location.reload();
      alert("Board has been reset.")
-    
 }
 
 console.log('File loaded');
