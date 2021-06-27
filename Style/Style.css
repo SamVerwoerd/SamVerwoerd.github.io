@@ -30,9 +30,6 @@ img{
     justify-content: center;
     text-align: center; 
 }
-.card{
-    border: none;
-}
 section{
     display: flex;
     flex-direction: row;

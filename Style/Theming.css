@@ -9,11 +9,6 @@
     background-color: black;
     color: white;
 }
-.dark-theme{
-    background-color: rgb(99, 96, 96);
-    color: white;
-    border-color: black;
-}
 body.dark-theme{
     background-color: rgb(99, 96, 96);
 }
@@ -38,7 +33,7 @@ h1.dark-theme{
     color: white;
     border-color: black;
 }
-.p.dark-theme{
+p.card-text.dark-theme{
     background-color: rgb(99, 96, 96);
     color: white;
     border-color: black;
