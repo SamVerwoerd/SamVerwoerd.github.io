@@ -1,6 +1,6 @@
 //Selectors
 const button = document.querySelector('.theme');
-const elements = document.querySelectorAll('body, h1, .themed, li, .footer, button, .container');
+const elements = document.querySelectorAll('body, h1, .themed, li, .footer, button, .container, p, h5');
 
 let darkMode = false
 //Dark mode colour change

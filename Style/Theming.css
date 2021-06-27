@@ -10,23 +10,15 @@
     color: white;
 }
 .dark-theme{
-    color: black;
+    background-color: rgb(99, 96, 96);
+    color: white;
+    border-color: black;
 }
 body.dark-theme{
     background-color: rgb(99, 96, 96);
 }
 h1.dark-theme{
     color: white;
-}
-ul.themed.dark-theme{
-    background-color: rgb(99, 96, 96);
-    color: white;
-    border-color: black;
-}
-li.themed.dark-theme{
-    background-color: rgb(99, 96, 96);
-    color: white;
-    border-color: black;
 }
 .card-body.dark-theme{
     background-color: rgb(99, 96, 96);
@@ -46,3 +38,14 @@ li.themed.dark-theme{
     color: white;
     border-color: black;
 }
+.p.dark-theme{
+    background-color: rgb(99, 96, 96);
+    color: white;
+    border-color: black;
+}
+h5.dark-theme{
+    background-color: rgb(99, 96, 96);
+    color: white;
+    border-color: black;
+}
+

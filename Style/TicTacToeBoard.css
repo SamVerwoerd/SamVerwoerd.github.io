@@ -7,9 +7,9 @@
   grid-template-columns: repeat(3,5em);
 }
 .field{
-  border: solid 2px;
-  background-color: rgb(255, 255, 255);
-  font-size: 18px;
+  border: solid 2px; 
+  background-color: rgb(114, 63, 63); 
+  font-size: 18px !important;
   justify-content: center;
   text-align: center;
 }
