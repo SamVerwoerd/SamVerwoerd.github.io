@@ -7,14 +7,11 @@
   grid-template-columns: repeat(3,5em);
 }
 .field{
-  border-radius: 5px;
   border: solid 2px;
   background-color: rgb(255, 255, 255);
   font-size: 18px;
   justify-content: center;
   text-align: center;
-  
-  margin: .1em;
 }
 .reset-btn{
   color: white;

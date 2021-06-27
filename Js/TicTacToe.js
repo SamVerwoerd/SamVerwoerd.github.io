@@ -36,6 +36,7 @@ for (let i = 0; i < fields.length; i++) {
             
             symbolText.textContent = players[currentPlayer].symbol;
 
+            //Makes the symbols switch
             if(currentPlayer == 0)
             {
                 currentPlayer = 1;
@@ -120,10 +121,12 @@ function checkWinner()
             if(X === 3)
             {
                 alert(playerOne.name + ' has won');
+                location.reload();
             }
             else if(O === 3)
             {
                 alert(playerTwo.name + ' has won');
+                location.reload();
             } 
         }
     }
