@@ -11,9 +11,14 @@ switch ($params[1]) {
         include_once "./Templates/projects.php";
         break;
 
-    case 'login';
-        $titleSuffix = ' | Inloggen';
-        include_once "./Templates/login.php";
+    case 'bte':
+        $titleSuffix = ' | bte';
+        include_once "./Templates/bte.php";
+        break;
+
+    case 'contact';
+        $titleSuffix = ' | contact';
+        include_once "./Templates/contact.php";
         break;
 
     default:

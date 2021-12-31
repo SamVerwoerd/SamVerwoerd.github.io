@@ -1,33 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boter Kaas eieren</title>
-    <link rel="stylesheet" href="../public/css/TicTacToeBoard.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/Style.css" media="screen"/>
-    <link rel="stylesheet" href="../public/css/Theming.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
-</head>
+<?php
+include_once('defaults/head.php');
+?>
 <body>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <ul class="navbar-nav">
         <li class="nav-item active">
-            <a class="nav-link" href="home.html">Home <span class="sr-only"></span></a>
+            <a class="nav-link" href="./home.php">Home <span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="Projects.html">Projects <span class="sr-only"></span></a>
+            <a class="nav-link" href="./projects.php">Projects <span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact <span class="sr-only"></span></a>
+            <a class="nav-link" href="./contact.php">Contact <span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="tool.html">Math Tool<span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../Boterkaaseiren.html">TicTacToe<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./bte.php">TicTacToe<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
             <button class="nav-link button theme">Dark Mode</button>
