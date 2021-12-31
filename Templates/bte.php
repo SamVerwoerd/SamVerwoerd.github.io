@@ -4,25 +4,9 @@
 include_once('defaults/head.php');
 ?>
 <body>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="./home.php">Home <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./projects.php">Projects <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./contact.php">Contact <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./bte.php">TicTacToe<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <button class="nav-link button theme">Dark Mode</button>
-        </li>
-    </ul>
-</nav>
+<?php
+include_once('defaults/nav.php');
+?>
 <br>
 <br>
 <main>
